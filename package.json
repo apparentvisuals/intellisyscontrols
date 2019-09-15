@@ -1,0 +1,18 @@
+{
+  "name": "intellisyscontrols",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "tailwind"
+  },
+  "author": "Apparent Visuals",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "tailwindcss": "^0.7.3",
+    "autoprefixer": "^9.4.2",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0"
+  }
+}
