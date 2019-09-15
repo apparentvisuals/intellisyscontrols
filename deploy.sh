@@ -6,7 +6,7 @@ cd .vuepress/dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -S -m 'deploy'
 
 git push -f git@github.com:apparentvisuals/intellisyscontrols.git master:gh-pages
 
