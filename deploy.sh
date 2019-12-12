@@ -4,6 +4,8 @@ vuepress build
 
 cd .vuepress/dist
 
+echo 'intellisyscontrols.com' > CNAME
+
 git init
 git add -A
 git commit -S -m 'deploy'
