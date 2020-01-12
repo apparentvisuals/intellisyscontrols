@@ -37,7 +37,7 @@ module.exports = {
         ]
       },
       {
-        text: 'Services',
+        text: 'Services and Rentals',
         link: '/services'
       },
       {
