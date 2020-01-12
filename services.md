@@ -29,7 +29,17 @@ Reach out to us to learn more. If you have purchased any services from us, use t
     <td>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="EA4CJMLRCZNLC">
+        <input type="hidden" name="hosted_button_id" value="AS3C79HYWMZAJ">
+        <select name="os0" style="display:block;">
+          <option value="Electronic Design">Electronic Design </option>
+          <option value="Concept Development">Concept Development </option>
+          <option value="Schematic Capture">Schematic Capture </option>
+          <option value="PCB Layout">PCB Layout </option>
+          <option value="Device Prototyping">Device Prototyping </option>
+          <option value="Firmware Creation">Firmware Creation </option>
+          <option value="Application Software Development">Application Software Development </option>
+        </select>
+        <br/>
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
       </form>
