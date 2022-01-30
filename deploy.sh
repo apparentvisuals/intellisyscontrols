@@ -1,6 +1,6 @@
 set -e
 
-vuepress build
+npm run build
 
 cd .vuepress/dist
 

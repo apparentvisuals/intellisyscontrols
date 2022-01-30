@@ -1,20 +1,23 @@
 module.exports = {
+  port: 3000,
   title: "Intellisys Controls",
   description:
     "Industrial wireless controllers - Builtin quality at every step",
   themeConfig: {
     search: false,
-    nav: [
+    lastUpdated: false,
+    contributors: false,
+    navbar: [
       {
         text: "Home",
         link: "/"
       },
       {
         text: "Products",
-        items: [
+        children: [
           {
             text: "Connectivity",
-            items: [
+            children: [
               {
                 text: "DT1000",
                 link: "/products/dt1000"
@@ -27,7 +30,7 @@ module.exports = {
           },
           {
             text: "OEM",
-            items: [
+            children: [
               {
                 text: "Flex2400 Tranceiver",
                 link: "/products/flex2400"
@@ -50,7 +53,4 @@ module.exports = {
       }
     ]
   }
-  // postcss: {
-  //   plugins: [require('tailwindcss')('./tailwind.js'), require('autoprefixer')],
-  // },
 };
