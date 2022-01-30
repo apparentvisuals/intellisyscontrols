@@ -1,13 +1,13 @@
 {
-  "name": "intellisyscontrols",
+  "name": "intellisyscontrols.com",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build"
   },
-  "author": "Apparent Visuals",
+  "author": "apparentvisuals",
   "license": "UNLICENSED",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.35"
